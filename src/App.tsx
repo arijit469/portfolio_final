@@ -161,7 +161,7 @@ function App() {
                 <Terminal className="text-cyan-400" /> Languages
               </h3>
               <ul className="space-y-2">
-                <li>JavaScript/TypeScript</li>
+                <li>JavaScript</li>
                 <li>Python</li>
                 <li>Java</li>
                 <li>c++</li>
