@@ -174,7 +174,8 @@ function App() {
               </h3>
               <ul className="space-y-2">
                 <li>React</li>
-                <li>Node.js/Express</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
                 <li>MongoDB</li>
               </ul>
             </div>
