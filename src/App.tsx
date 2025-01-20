@@ -173,7 +173,7 @@ function App() {
                 <Database className="text-cyan-400" /> Technologies
               </h3>
               <ul className="space-y-2">
-                <li>React/Next.js</li>
+                <li>React</li>
                 <li>Node.js/Express</li>
                 <li>MongoDB</li>
               </ul>
@@ -183,8 +183,6 @@ function App() {
                 <GitBranch className="text-cyan-400" /> DevOps & Tools
               </h3>
               <ul className="space-y-2">
-                <li>AWS/GCP</li>
-                <li>Terraform</li>
                 <li>Git/GitHub</li>
               </ul>
             </div>
