@@ -126,10 +126,10 @@ function App() {
                   className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
                 />
                  <img
-  src={profile}
-  alt="Arijit Malik - Software Engineer"
-  className="rounded-lg shadow-xl w-full hover:scale-105 transition-transform duration-300"
-/>
+                   src={profile}
+                        alt="Arijit Malik - MEEE!!!!!!"
+                         className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
+                    />
                 <img
                   src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=400"
                   alt="Speaking at tech conference"
@@ -218,6 +218,11 @@ function App() {
                 title: 'Doctor appointment booking system',
                 description: 'Developed infrastructure as code solutions using , Mysql',
                 image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400'
+              },
+              {
+                title: 'Image enhancement using hybrid method',
+                description: 'Built a high-performance  system for backlit images using, AI,ML,MATLAB',
+                image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.skyfilabs.com%2Fblog%2F7-innovative-projects-based-on-image-processing&psig=AOvVaw0TNemzV3eXtqYIJLy7QzQx&ust=1751180833417000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPC_4pDHk44DFQAAAAAdAAAAABAe?auto=format&fit=crop&w=400'
               }
             ].map((project, index) => (
               <div 
