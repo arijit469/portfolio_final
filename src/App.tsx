@@ -126,7 +126,7 @@ function App() {
                   className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
                 />
                 <img
-                  src="profile2.jepg"
+                  src="profile2.jpeg"
                   alt="Coding session"
                   className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
                 />
