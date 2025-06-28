@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Github, Linkedin, Mail, ExternalLink, User, Code, Briefcase, Terminal, GitBranch, Database, Menu, X } from 'lucide-react';
 import profileImage from './profile.jpg';
-import profileimage2 from './profile2.jpeg';
+import profile from './profile2.jpeg';
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -125,11 +125,11 @@ function App() {
                   alt="Coding session"
                   className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
                 />
-                <img
-                  src="{profileimage2}"
-                  alt="Coding session"
-                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
-                />
+                 <img
+  src={profile}
+  alt="Arijit Malik - Software Engineer"
+  className="rounded-lg shadow-xl w-full hover:scale-105 transition-transform duration-300"
+/>
                 <img
                   src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=400"
                   alt="Speaking at tech conference"
