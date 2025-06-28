@@ -76,9 +76,7 @@ function App() {
 
       {/* Hero Section with enhanced animations */}
       <header className="container mx-auto px-6 pt-24 pb-16 md:py-32">
-        <script defer data-domain="portfolio-final-snowy-beta.vercel.app" src="https://plausible.io/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"></script>
-<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
-
+       
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-slide-in-left">
             Hi, I'm <span className="text-cyan-400">Arijit Malik</span>
