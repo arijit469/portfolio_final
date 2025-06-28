@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Github, Linkedin, Mail, ExternalLink, User, Code, Briefcase, Terminal, GitBranch, Database, Menu, X } from 'lucide-react';
 import profileImage from './profile.jpg';
 import profile from './profile2.jpeg';
-import enhance from './enhance.webp'
+import profile2 from './profile3.jpg'
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -127,7 +127,7 @@ function App() {
                   className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
                 />
                 <img
-                   src='https://www.instagram.com/p/DCqTPFzSpuI/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
+                  src={profile2}
                         alt="Arijit Malik - MEEE!!!!!!"
                          className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
                     />
