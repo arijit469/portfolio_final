@@ -127,7 +127,7 @@ function App() {
                   className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
                 />
                 <img
-                   src={enhance}
+                   src='https://www.instagram.com/p/DCqTPFzSpuI/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
                         alt="Arijit Malik - MEEE!!!!!!"
                          className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
                     />
