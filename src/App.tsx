@@ -222,8 +222,7 @@ function App() {
               {
                 title: 'Image enhancement using hybrid method',
                 description: 'Built a high-performance  system for backlit images using, AI,ML,MATLAB',
-                image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.skyfilabs.com%2Fblog%2F7-innovative-projects-based-on-image-processing&psig=AOvVaw0TNemzV3eXtqYIJLy7QzQx&ust=1751180833417000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPC_4pDHk44DFQAAAAAdAAAAABAe?auto=format&fit=crop&w=400'
-              }
+                image: 'https://imgv3.fotor.com/images/side/fix-overexposed-and-underexposed-photos-using-automatic-AI-HDR-enhancement.jpg?auto=format&fit=crop&w=400'
             ].map((project, index) => (
               <div 
                 key={project.title} 
