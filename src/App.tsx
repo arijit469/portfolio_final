@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Github, Linkedin, Mail, ExternalLink, User, Code, Briefcase, Terminal, GitBranch, Database, Menu, X } from 'lucide-react';
 import profileImage from './profile.jpg';
-
+import profileimage2 from './profile2.jpeg';
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -126,7 +126,7 @@ function App() {
                   className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
                 />
                 <img
-                  src="{profile2}"
+                  src="{profileimage2}"
                   alt="Coding session"
                   className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
                 />
