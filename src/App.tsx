@@ -126,6 +126,11 @@ function App() {
                   alt="Coding session"
                   className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
                 />
+                <img
+                   src={enhance}
+                        alt="Arijit Malik - MEEE!!!!!!"
+                         className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
+                    />
                  <img
                    src={profile}
                         alt="Arijit Malik - MEEE!!!!!!"
@@ -223,7 +228,7 @@ function App() {
               {
                 title: 'Image enhancement using hybrid method',
                 description: 'Built a high-performance  system for backlit images using, AI,ML,MATLAB',
-                image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400'
+                image: 'https://images.insmind.com/market-operations/market/side/83c30c14ee87458f92244e233c6233c6/1741848782390.jpg?auto=format&fit=crop&w=400'
             }
             ].map((project, index) => (
               <div 
