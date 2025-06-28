@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Github, Linkedin, Mail, ExternalLink, User, Code, Briefcase, Terminal, GitBranch, Database, Menu, X } from 'lucide-react';
 import profileImage from './profile.jpg';
 import profile from './profile2.jpeg';
+import enhance from './enhance.webp'
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -222,7 +223,7 @@ function App() {
               {
                 title: 'Image enhancement using hybrid method',
                 description: 'Built a high-performance  system for backlit images using, AI,ML,MATLAB',
-                image: 'https://imgv3.fotor.com/images/side/fix-overexposed-and-underexposed-photos-using-automatic-AI-HDR-enhancement.jpg?auto=format&fit=crop&w=400'
+                   src={enhance}
             ].map((project, index) => (
               <div 
                 key={project.title} 
