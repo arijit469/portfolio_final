@@ -126,6 +126,11 @@ function App() {
                   className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
                 />
                 <img
+                  src="profile2.jepg"
+                  alt="Coding session"
+                  className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
+                />
+                <img
                   src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=400"
                   alt="Speaking at tech conference"
                   className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
