@@ -223,7 +223,7 @@ function App() {
               {
                 title: 'Image enhancement using hybrid method',
                 description: 'Built a high-performance  system for backlit images using, AI,ML,MATLAB',
-                   src={enhance}
+                image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400'
             }
             ].map((project, index) => (
               <div 
