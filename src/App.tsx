@@ -224,6 +224,7 @@ function App() {
                 title: 'Image enhancement using hybrid method',
                 description: 'Built a high-performance  system for backlit images using, AI,ML,MATLAB',
                    src={enhance}
+            }
             ].map((project, index) => (
               <div 
                 key={project.title} 
