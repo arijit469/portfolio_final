@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Github, Linkedin, Mail, ExternalLink, User, Code, Briefcase, Terminal, GitBranch, Database, Menu, X } from 'lucide-react';
 import profileImage from './profile.jpg';
-import profile from './profile2.jpeg';
+// import profile from './profile2.jpeg';
 import profile2 from './profile3.jpg'
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -127,11 +127,11 @@ function App() {
                   alt="Coding session"
                   className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
                 />
-                <img
+{/*                 <img
                   src={profile2}
                         alt="Arijit Malik - MEEE!!!!!!"
                          className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
-                    />
+                    /> */}
                  <img
                    src={profile}
                         alt="Arijit Malik - MEEE!!!!!!"
@@ -214,22 +214,32 @@ function App() {
               {
                 title: 'Multiservice website',
                 description: 'Designed and implemented a scalable multiserviceservices website using Node.js, react.js mongodb,express',
+                Year: '2023',
                 image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=400'
               },
               {
                 title: 'Real-time face recognition in log light',
                 description: 'Built a high-performance analytics system processing millions of events.',
+                Year: '2024',
                 image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=400'
               },
               {
                 title: 'Doctor appointment booking system',
                 description: 'Developed infrastructure as code solutions using , Mysql',
+                Year: '2024',
                 image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400'
               },
               {
                 title: 'Image enhancement using hybrid method',
                 description: 'Built a high-performance  system for backlit images using, AI,ML,MATLAB',
+                Year: '2025',
                 image: 'https://images.insmind.com/market-operations/market/side/83c30c14ee87458f92244e233c6233c6/1741848782390.jpg?auto=format&fit=crop&w=400'
+            },
+            {
+                title: 'Construction Company Website',
+                description: 'A fully responsive website designed for a construction company. Built using mern stack with features like service listings project showcase, and a contact form. Optimized for desktop and mobile viewing. 2025',
+                Year: '2025',
+                image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Frealtyquarter.com%2Fconstruction-firms-are-able-to-support-their-workers-by-using-the-reverse-migration-option%2F&psig=AOvVaw2Q8Ps8AmqyVbBQeeZKaxad&ust=1753727856434000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqGAoTCNCdvMHX3Y4DFQAAAAAdAAAAABCpAQ'
             }
             ].map((project, index) => (
               <div 
