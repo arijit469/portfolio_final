@@ -241,6 +241,7 @@ function App() {
                 description: 'A fully responsive website designed for a construction company. Built using mern stack with features like service listings project showcase, and a contact form. Optimized for desktop and mobile viewing. 2025',
                 Year: '2025',
                 image:'https://thumbs.dreamstime.com/b/construction-site-silhouette-crane-workers-65670036.jpg'
+            }
             ].map((project, index) => (
               <div 
                 key={project.title} 
