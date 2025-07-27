@@ -144,7 +144,7 @@ function App() {
                 />
               </div>
             </div>
-            <div className="md:w-1/2 reveal reveal-right -mt-80">
+            <div className="md:w-1/2 reveal reveal-right -mt-65">
   <h2 className="text-3xl font-bold mb-6 flex items-center gap-2">
     <Terminal className="text-cyan-400" /> About Me
   </h2>
@@ -240,8 +240,7 @@ function App() {
                 title: 'Construction Company Website',
                 description: 'A fully responsive website designed for a construction company. Built using mern stack with features like service listings project showcase, and a contact form. Optimized for desktop and mobile viewing. 2025',
                 Year: '2025',
-                image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Frealtyquarter.com%2Fconstruction-firms-are-able-to-support-their-workers-by-using-the-reverse-migration-option%2F&psig=AOvVaw2Q8Ps8AmqyVbBQeeZKaxad&ust=1753727856434000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqGAoTCNCdvMHX3Y4DFQAAAAAdAAAAABCpAQ'
-            }
+                image:'https://thumbs.dreamstime.com/b/construction-site-silhouette-crane-workers-65670036.jpg'
             ].map((project, index) => (
               <div 
                 key={project.title} 
