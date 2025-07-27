@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Github, Linkedin, Mail, ExternalLink, User, Code, Briefcase, Terminal, GitBranch, Database, Menu, X } from 'lucide-react';
 import profileImage from './profile.jpg';
-// import profile from './profile2.jpeg';
+import profile from './profile2.jpeg';
 import profile2 from './profile3.jpg'
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -127,16 +127,16 @@ function App() {
                   alt="Coding session"
                   className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
                 />
-{/*                 <img
+                <img
                   src={profile2}
                         alt="Arijit Malik - MEEE!!!!!!"
                          className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
-                    /> */}
-                 <img
+                    />
+                 {/* <img
                    src={profile}
                         alt="Arijit Malik - MEEE!!!!!!"
                          className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
-                    />
+                    /> */}
                 <img
                   src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=400"
                   alt="Speaking at tech conference"
@@ -144,19 +144,20 @@ function App() {
                 />
               </div>
             </div>
-            <div className="md:w-1/2 reveal reveal-right">
-              <h2 className="text-3xl font-bold mb-6 flex items-center gap-2">
-                <Terminal className="text-cyan-400" /> About Me
-              </h2>
-              <p className="text-gray-300 mb-6">
-              Hello! I'm Arijit Malik, a passionate MCA student with a keen interest in software development and emerging technologies.
-              My journey in computer science has equipped me with a strong foundation in various programming languages and frameworks.
-              </p>
-              <p className="text-gray-300">
-              love tackling complex problems and turning ideas into reality through code. When I'm not coding, you can find me
-            exploring new technologies, contributing to open-source projects, or enjoying a good book on tech innovations.
-              </p>
-            </div>
+            <div className="md:w-1/2 reveal reveal-right -mt-80">
+  <h2 className="text-3xl font-bold mb-6 flex items-center gap-2">
+    <Terminal className="text-cyan-400" /> About Me
+  </h2>
+  <p className="text-gray-300 mb-6">
+    Hello! I'm Arijit Malik, a passionate MCA student with a keen interest in software development and emerging technologies.
+    My journey in computer science has equipped me with a strong foundation in various programming languages and frameworks.
+  </p>
+  <p className="text-gray-300">
+    I love tackling complex problems and turning ideas into reality through code. When I'm not coding, you can find me
+    exploring new technologies, contributing to open-source projects, or enjoying a good book on tech innovations.
+  </p>
+</div>
+
           </div>
         </div>
       </section>
